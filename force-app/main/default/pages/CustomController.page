@@ -1,0 +1,21 @@
+<apex:page docType="html-5.0"  controller="oppfinder" lightningStylesheets="true" >
+    <apex:form >
+        <apex:pageBlock >
+          <apex:pageBlockSection title="find opportunity">
+              <apex:input label="opportunity name"  value="{!searchText}"/>
+              <apex:commandButton value="search" action="{!search}" rerender="opplist"/>
+          </apex:pageBlockSection>
+          <apex:pageBlockSection title="Opportunity List" id="opplist">
+              <apex:dataTable value="{!opportunities}" var="opp" cellPadding="4" 
+                               border="1">
+                  <apex:column >
+                      <apex:commandLink rerender="detail"> 
+                          {!opp.Name}
+                          <apex:param name="cid" value="{!opp.id}"/>
+                      </apex:commandLink>
+                  </apex:column>
+            </apex:dataTable>
+          </apex:pageBlockSection>
+        </apex:pageBlock> 
+    </apex:form>
+</apex:page>

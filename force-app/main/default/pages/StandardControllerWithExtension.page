@@ -1,0 +1,18 @@
+<apex:page standardController="Account" extensions="StandardControllerExtension"><!---->
+    <apex:form >
+        <apex:pageBlock title="A Block Title">
+            <h1>
+                {!greeting}
+            </h1><br/>
+            <apex:pageBlockSection title="A Section Title">
+                <apex:inputField label="Account Name" value="{!Account.Name}"> </apex:inputField>
+                <apex:inputField label="Account Industry" value="{!Account.Industry}"> </apex:inputField> 
+                <apex:inputField label="Is top Contributor" value="{!Account.Is_Top_Contributor__c}"> </apex:inputField>
+                <apex:inputfield label="case Sensitive" value="{!account.Case_Sensitive__c}"> </apex:inputfield>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons >
+            	<apex:commandButton action="{!save}" value="Save the Record" />
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

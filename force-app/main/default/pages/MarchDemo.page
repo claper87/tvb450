@@ -1,0 +1,7 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1 style="color:red">Congratulations {!$User.FirstName}</h1>
+  <br/>
+  This is your new Page: MarchDemo
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

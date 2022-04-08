@@ -1,0 +1,6 @@
+<apex:page standardController="Opportunity">
+    <h1>
+        Hello {!$user.firstname}, wonder woman!
+    </h1><br/>
+    <img src="{!$Resource.dianaPrincePicture}" />
+</apex:page>

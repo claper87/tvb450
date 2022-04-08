@@ -1,0 +1,17 @@
+<apex:page controller="FLS_customController" extensions="CustomControllerExtension">
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockSection >
+                {!greeting}
+                <apex:inputField value="{!accountInContext.Name}"/>
+                <apex:inputField value="{!accountInContext.Industry}"/>
+                <apex:inputField value="{!accountInContext.Is_Top_Contributor__c}"/>
+                <apex:inputField value="{!accountInContext.Case_Sensitive__c}"/>
+                
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons >
+                <apex:commandButton value="save" action="{!save}"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

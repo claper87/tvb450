@@ -1,0 +1,12 @@
+<template>
+  <div >
+    <lightning-datatable
+        key-field="id"
+        data={records}
+        columns={columns}>
+    </lightning-datatable>
+    <template if:true={error}>
+        <h1>An system Exception was thrown</h1>
+    </template>
+  </div>   
+</template>

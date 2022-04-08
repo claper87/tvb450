@@ -1,0 +1,21 @@
+<apex:page >
+    
+    <div id="lightning">Hola</div>
+    <script src="https://dev450-developer-edition.na123.force.com/getAccounts/lightning/lightning.out.js"></script>
+    <script>
+        $Lightning.use("c:GetAccountsApp",   
+                       function() {               
+                           $Lightning.createComponent(
+                               "c:GetAccounts", 
+                               { },                 
+                               "lightning",  
+                               function(cmp) {
+                                   alert('loaded');
+                                   // callback when component is created and active on the page
+                               }
+                           );
+                       },
+                       'https://dev450-developer-edition.na123.force.com/getAccounts'  // Community endpoint 
+                      );
+    </script>
+</apex:page>

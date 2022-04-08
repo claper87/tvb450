@@ -1,0 +1,5 @@
+<apex:page renderAs="PDF" >
+    <center>
+    	Hi {!$User.FirstName}
+    </center>
+</apex:page>

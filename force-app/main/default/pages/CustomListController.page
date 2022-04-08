@@ -1,0 +1,13 @@
+<apex:page controller="CustomListCntrl"  lightningStylesheets="true">
+    <apex:pageBlock >
+        <p style="color:red">
+            Hello!<br/>
+            {!greeting}
+        </p>
+        <apex:pageBlockTable value="{!opportunities}" var="o">
+            <apex:column value="{!o.Name}"/>
+            <apex:column value="{!o.Account.Industry}"/>
+            <apex:column value="{!o.CloseDate}"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>

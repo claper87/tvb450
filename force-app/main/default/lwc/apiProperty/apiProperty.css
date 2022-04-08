@@ -1,0 +1,17 @@
+c-chart-bar {
+    border: solid var(--lwc-borderWidthThin, 1px) #ecebea;
+    border-radius: var(--lwc-borderRadiusMedium, 4px);
+    padding: 10px var(--lwc-varSpacingXxxSmall, 2px)
+        var(--lwc-varSpacingXxxSmall, 2px) var(--lwc-varSpacingXxxSmall, 2px);
+    margin-top: var(--lwc-varSpacingSmall, 12px);
+}
+
+c-chart-bar:before {
+    content: 'c-chart-bar';
+    color: rgb(221, 219, 218);
+    position: absolute;
+    top: -10px;
+    left: var(--lwc-varSpacingXxSmall, 4px);
+    background-color: var(--lwc-colorBackgroundAlt, #ffffff);
+    padding: 0 var(--lwc-varSpacingXxSmall, 4px);
+}

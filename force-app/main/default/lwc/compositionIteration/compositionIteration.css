@@ -1,0 +1,6 @@
+@import 'c/cssLibrary';
+
+/* Other style rules for compositionIteration component */
+c-contact-tile {
+    margin: var(--lwc-borderWidthThin, 1px) 0;
+}

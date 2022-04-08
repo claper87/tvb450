@@ -1,0 +1,13 @@
+<apex:page standardController="Account" lightningStylesheets="true"  >
+    {!Account.Owner.Profile.Name}
+    <apex:tabPanel >
+        <apex:tab label="Details">
+            <apex:detail relatedList="false"/>
+        </apex:tab>
+        <apex:tab label="Related Lists">
+            <apex:relatedList list="Contacts"/>
+            <apex:relatedList list="Opportunities"/>
+            <apex:relatedList list="CombinedAttachments"/>
+        </apex:tab>
+    </apex:tabPanel>
+</apex:page>

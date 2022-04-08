@@ -1,0 +1,47 @@
+<aura:component controller="GetAllAccounts">
+    <aura:attribute name="accs" type="Account[]"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+        <thead>
+            <tr class="slds-line-height_reset">
+                <th class="slds-text-title_caps" scope="col">
+                    <div class="slds-truncate" title="Account Name">Account Name</div>
+                </th>
+                <th class="slds-text-title_caps" scope="col">
+                    <div class="slds-truncate" title="Account Type">Account Type</div>
+                </th>
+                <th class="slds-text-title_caps" scope="col">
+                    <div class="slds-truncate" title="Account Rating">Account Rating</div>
+                </th>
+                <th class="slds-text-title_caps" scope="col">
+                    <div class="slds-truncate" title="Annual Revenue">AnnualRevenue</div>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <aura:iteration items="{!v.accs}" var="item">
+                
+                <tr class="slds-hint-parent">
+                    <td data-label="Account Name">
+                        <div class="slds-truncate" title="Account Name">    {!item.Name}
+                        </div>
+                    </td>
+                    <td data-label="Account Type">
+                        <div class="slds-truncate" title="Account Type">    {!item.Type}
+                        </div>
+                    </td>
+                    <td data-label="Account Rating">
+                        <div class="slds-truncate" title="Account Rating">    {!item.Rating}
+                        </div>
+                    </td>
+                    <td data-label="Prospecting">
+                        <div class="slds-truncate" title="AnnualRevenue">    {!item.AnnualRevenue}
+                        </div>
+                    </td>
+                </tr>
+            </aura:iteration>
+            
+        </tbody>
+    </table>
+</aura:component>

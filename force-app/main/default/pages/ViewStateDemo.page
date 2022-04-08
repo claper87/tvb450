@@ -1,0 +1,7 @@
+<apex:page controller="ViewStateController">
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  This is your new Page: ViewStateDemo
+  <!-- End Default Content REMOVE THIS -->
+  {!opportunities}
+</apex:page>
