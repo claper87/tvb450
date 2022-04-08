@@ -22,10 +22,10 @@ On the account object there is a field called "Start_Date__c" [Date] and "Number
 
 Examples:
 - Start_Date = 01/Feb/2022 and Number_of_Days__c = 10; then End_Date = 14/Feb/2022
-(2) Start_Date = 01/Feb/2022 and Number_of_Days__c = 01; then End_Date = 01/Feb/2022
-(3) Start_Date = 01/Feb/2022 and Number_of_Days__c = 0; then End_Date = 01/Feb/2022
-(4) Start_Date = 01/Feb/2022 and Number_of_Days__c = null; then End_Date = 01/Feb/2022
-(5) Start_Date = 01/Feb/2022 and Number_of_Days__c = 3; then End_Date = 03/Feb/2022
-(6) Start_Date = 01/Feb/2022 and Number_of_Days__c = 5; then End_Date = 07/Feb/2022
+- Start_Date = 01/Feb/2022 and Number_of_Days__c = 01; then End_Date = 01/Feb/2022
+- Start_Date = 01/Feb/2022 and Number_of_Days__c = 0; then End_Date = 01/Feb/2022
+- Start_Date = 01/Feb/2022 and Number_of_Days__c = null; then End_Date = 01/Feb/2022
+- Start_Date = 01/Feb/2022 and Number_of_Days__c = 3; then End_Date = 03/Feb/2022
+- Start_Date = 01/Feb/2022 and Number_of_Days__c = 5; then End_Date = 07/Feb/2022
 
 
