@@ -21,7 +21,7 @@ Flow Control and Loops - Exercise
 On the account object there is a field called "Start_Date__c" [Date] and "Number_of_Days__c" [Number(3,0)], a new field called "End_Date__c" [Date] must be created, this field shall be automatically populate to add Number_of_Days__c to the value of Start_Date__c, however weekends must be excluded. create a before record-triggered flow that calls an apex method to fulfill de business scenario.
 
 Examples:
-(1) Start_Date = 01/Feb/2022 and Number_of_Days__c = 10; then End_Date = 14/Feb/2022
+- Start_Date = 01/Feb/2022 and Number_of_Days__c = 10; then End_Date = 14/Feb/2022
 (2) Start_Date = 01/Feb/2022 and Number_of_Days__c = 01; then End_Date = 01/Feb/2022
 (3) Start_Date = 01/Feb/2022 and Number_of_Days__c = 0; then End_Date = 01/Feb/2022
 (4) Start_Date = 01/Feb/2022 and Number_of_Days__c = null; then End_Date = 01/Feb/2022
