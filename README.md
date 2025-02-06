@@ -1,16 +1,16 @@
 # Weekly Quizzes
 
-[Week 1](https://testmoz.com/q/2201947)
+[Week 1](https://testmoz.com/14282696)
 
-[Week 2](https://testmoz.com/q/3949222)
+[Week 2](https://testmoz.com/3949222)
 
-[Week 3](https://testmoz.com/q/4041030)
+[Week 3](https://testmoz.com/4041030)
 
-[Week 4](https://testmoz.com/q/4144674)
+[Week 4](https://testmoz.com/4144674)
 
-[Week 5](https://testmoz.com/q/6069474)
+[Week 5](https://testmoz.com/6069474)
 
-[Week 6](https://testmoz.com/q/6644724)
+[Week 6](https://testmoz.com/14282700)
 
 # Additional Resources
 [Quizzlet Platform Developer 1](https://quizlet.com/216685185/platform-developer-1-flash-cards/)
